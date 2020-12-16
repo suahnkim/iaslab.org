@@ -236,9 +236,9 @@ border-radius: 30px;
 }
 #members{ 
   background: rgb(240,240,240);
+  padding: 50px 30px;
 }
 #members .container{
-	  padding: 50px 30px;
 }
 #members h3{
   margin-top: 50px;
