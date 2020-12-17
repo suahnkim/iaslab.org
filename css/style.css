@@ -59,7 +59,7 @@ body{
 	  -webkit-filter: blur(4px);
    /* Full height */
     height: 100%;
-    background-image: url("../img/2_04_1_com_cr_org_res_nfit.jpg");
+    background-image: url("../img/background.jpg");
     background-repeat: no-repeat;
 	background-position: center;
     background-size:  cover;
@@ -69,7 +69,7 @@ body{
 
 #intro .bg-text {
   background-color: rgb(0,0,0); /* Fallback color */
-  border: 0.7vmax solid #f1f1f1;
+  border: 0.2vmax solid #f1f1f1;
   background-color: rgba(0,0,0, 0.3); /* Black w/opacity/see-through */ 
   position: absolute;
   top: 50%;
@@ -134,19 +134,19 @@ border-radius: 30px;
 }
 
 
-#info{
+#about{
   padding: 50px 30px;
 }
 
-#info p{
+#about p{
   margin-top: 20px;
 }
-#info h3{
+#about h3{
   margin-bottom: 30px;
 }
 
 
-#info img{
+#about img{
   margin-bottom: 10px;
 }
 
@@ -255,6 +255,198 @@ border-radius: 30px;
   max-width: 40%;
 }
 
+#compressed_db{
+/*   margin-top: 100px;*/
+  padding: 0px 30px;  /* background: rgb(248,248,248); */
+}
+
+#compressed_db h3{
+  margin-bottom: 50px;
+}
+
+#compressed_db h4{
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#compressed_db h5{
+  margin-top: 5px;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 20px;
+}
+#compressed_db .upper{
+  position: relative;
+}
+
+#compressed_db img{
+  width: 80&;
+}
+
+#compressed_db .innertext{
+      position: absolute;
+      bottom: 15px;
+      right: 15px;
+  }
+
+#compressed_db .innertext span{
+  background:rgba(255,255,255,0.7);
+  padding: 6px 10px;
+  border-radius: 30px;
+}
+
+#compressed_db .outer{
+  margin-top: 40px;
+  background: white;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.08 );
+}
+
+#compressed_db .lower{
+  padding: 0 5px 10px 0px;
+}
+
+#compressed_db a{
+  color: black;
+}
+
+#compressed_db a:hover{
+  text-decoration: none;
+}
+
+
+#compressed_db .lower h4{
+  margin-bottom: 5px;
+}
+
+#filter_db{
+  padding: 80px 0;
+  /* background: rgb(248,248,248); */
+}
+
+#filter_db h3{
+  margin-bottom: 50px;
+}
+
+#filter_db h4{
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#filter_db h5{
+  margin-top: 5px;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 20px;
+}
+#filter_db .upper{
+  position: relative;
+}
+
+#filter_db img{
+  width: 80&;
+}
+
+#filter_db .innertext{
+      position: absolute;
+      bottom: 15px;
+      right: 15px;
+  }
+
+#filter_db .innertext span{
+  background:rgba(255,255,255,0.7);
+  padding: 6px 10px;
+  border-radius: 30px;
+}
+
+#filter_db .outer{
+  margin-top: 40px;
+  background: white;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.08 );
+}
+
+#filter_db .lower{
+  padding: 0 5px 10px 0px;
+}
+
+#filter_db a{
+  color: black;
+}
+
+#filter_db a:hover{
+  text-decoration: none;
+}
+
+
+#filter_db .lower h4{
+  margin-bottom: 5px;
+}
+
+#under_over_exposed_db{
+  padding: 80px 0;
+  /* background: rgb(248,248,248); */
+}
+
+#under_over_exposed_db h3{
+  margin-bottom: 50px;
+}
+
+#under_over_exposed_db h4{
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#under_over_exposed_db h5{
+  margin-top: 5px;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 20px;
+}
+#under_over_exposed_db .upper{
+  position: relative;
+}
+
+#under_over_exposed_db img{
+  width: 80&;
+}
+
+#under_over_exposed_db .innertext{
+      position: absolute;
+      bottom: 15px;
+      right: 15px;
+  }
+
+#under_over_exposed_db .innertext span{
+  background:rgba(255,255,255,0.7);
+  padding: 6px 10px;
+  border-radius: 30px;
+}
+
+#under_over_exposed_db .outer{
+  margin-top: 40px;
+  background: white;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.08 );
+}
+
+#under_over_exposed_db .lower{
+  padding: 0 5px 10px 0px;
+}
+
+#under_over_exposed_db a{
+  color: black;
+}
+
+#under_over_exposed_db a:hover{
+  text-decoration: none;
+}
+
+
+#under_over_exposed_db .lower h4{
+  margin-bottom: 5px;
+}
+
 a.name{
   color:black;
 }
@@ -320,11 +512,11 @@ footer p{
 margin-top: -30px;
 
 }
-  #info h5{
+  #about h5{
     margin-bottom: 33px;
   }
 
-  #info p {
+  #about p {
     text-align: center;
   }
 
