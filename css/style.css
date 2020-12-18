@@ -108,13 +108,13 @@ header li right{
 
 }
 
-header nav{
+header nav{
   background: white;
 }
 
-header nav img{
+/* header nav img{
   margin-left: 50px;
-}
+} */
 
 
 header .container .row{
@@ -252,8 +252,9 @@ border-radius: 30px;
 }
 
 #members img{
-  max-width: 40%;
-}
+	width: 100%;
+    height: auto;
+    max-width: 200px;}
 
 #compressed_db{
 /*   margin-top: 100px;*/
@@ -497,6 +498,11 @@ footer p{
   background-color: #f0f0f0;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 @media only screen and (max-width:768px) {
 
