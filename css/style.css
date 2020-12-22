@@ -55,8 +55,8 @@ body{
 }
 #intro .jumbotron {
    /*  background-color: white!important; */
-    filter: blur(4px);
-	  -webkit-filter: blur(4px);
+     filter: blur(3px);
+	  -webkit-filter: blur(3px);
    /* Full height */
     height: 100%;
     background-image: url("../img/background.jpg");
@@ -135,7 +135,7 @@ border-radius: 30px;
 
 
 #about{
-  padding: 50px 30px;
+  padding: 0px 30px;
 }
 
 #about p{
@@ -168,7 +168,8 @@ border-radius: 30px;
 }
 
 #projects img{
-  margin-top: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #latest{
@@ -321,7 +322,7 @@ border-radius: 30px;
 }
 
 #filter_db{
-  padding: 80px 0;
+  padding: 0px 30px;
   /* background: rgb(248,248,248); */
 }
 
@@ -385,7 +386,8 @@ border-radius: 30px;
 }
 
 #under_over_exposed_db{
-  padding: 80px 30px;
+  padding: 0 30px;
+  padding-top: 100;
   /* background: rgb(248,248,248); */
 }
 

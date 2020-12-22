@@ -19,7 +19,7 @@
 
   <!-- favicon -->
   <link rel="icon" type="image/png" href="img/kufavicon.png"> 
-  <title>Download</title>
+  <title>iaslab | Download</title>
 	<meta name="description" content="Images that can be used for compression testing, machine learning, image enhancement are provided here. Some databases contain specific images from a SNS service such as Instagram. These can be used to study how a specific SNS handles uploaded images. We also provide several image enhancement techniques and image compression techniques. The database contains, jpg, JPEG, heic, heif, png images." />
 
 </head>
@@ -73,523 +73,68 @@
   <section id = "under_over_exposed_db">
   <div class="container">
       <div class="row">
-        <div class="col-md-12 text-left">
-          <h5>Under and over exposed image database</h5><hr>
+        <div class="col-md-10 offset-md-1 text-left">
+          <h5>Under and over exposed image enhancement test dataset</h5><hr>
           <div class="row">
             <div class="col-md-12 text-justify">
-              <p>This image database is useful for testing automatic image enhancement techniques to make under or over exposed images more visble to human eyes. The 6 images can be downloaded  <a href="dbzip/Under-and-over-exposed-images.zip">here</a>.</div>
+              <p>This image dataset is useful for testing automatic image enhancement techniques to make under or over exposed images more visble to human eyes. </div>
           </div>
+		   <div class="col-md-12 text-justify">
+		      <p><span>&#8226;</span> Under and over exposed image dataset: <a href="dbzip/Under-and-over-exposed-images.zip"> <u>[6 color JPEG images]</u></a></p>
+           </div>
+
         </div>
       </div>
   </div>
   </section>
+  
+  
   <section id = "compressed_db">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 text-left">
-          <h5>Instagram compressed image database</h5><hr>
+        <div class="col-md-10 offset-md-1 text-left">
+          <h5>SNS image compression dataset</h5><hr>
           <div class="row">
+		  <div class="col-md-12 text-justify">
+              <p>This dataset is useful for testing new image compression techniques that are specifically targeting SNS platform. Currently, we offer images that are uploaded and downloaded from Instagram SNS. We hope to expand this work in the future.</p>
+            </div>
+			
             <div class="col-md-12 text-justify">
-              <p>This image database is useful for testing new image compression techniques that are specifically targeting SNS platform. It contains resized and unenhanced jpeg images. All images are resized to an optimal size for Instagram post (1080p x 566p ~ 1350p) before uploading it to Instagram. Total of 920 images (480 color, 440 grayscaled) have been uploaded. <br> Due to the nature of Instagram, where a single post can have multiple images, we collected posts with 1 image upto 6 images. Furthermore, an image may be color, or grayscaled. We also provide a database with HEIC/HEIF saved images that were uploaded to Instagram as well. </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    <div class="row">
-              <div class="col-md-12">
-              <h5>Following are the downloadable image databases.</h5>
-               <li>Instagram posts with 1 image: color JPEG images, grayscaled JPEG images, HEIC/HEIF images</li>
-               <ul><li></sli></ul>
-              </div>
-    </div>          
-
-    <div class="row">
-              <div class="col-md-2">  
-          <div class = "outer">
-		  	<a href="dbzip/compressed_db_JPEG_1_image_res_compressed.zip">
-            <div class="upper">
-              <img src="img/com_cr_db1_cover.jpg">
-              <div class="innertext">
-                <span>40 images</span>
-              </div>
-            </div>
-
-            <div class="lower">
-              <h5>1 color image per post db</h5>
+              <p><span>&#8226;</span> Instagram compression test dataset: This contains resized and unenhanced jpeg images. All images are resized to an optimal size for Instagram post (1080p x 566p ~ 1350p) before uploading it to Instagram. Since Instagram post can have multiple number of images, we collected posts with 1 image up to 6 images. Each dataset contains the uploaded version, downloaded version, and an image dataset description file.
+			  <br>&nbsp;&nbsp;&nbsp;&nbsp; <span>&#9900;</span> 20 posts with 1 image per post: <a href="dbzip/compressed_db_JPEG_1_image_res_compressed.zip">&nbsp;&nbsp; <u>[40 color JPEG dataset]</u></a>,&nbsp;&nbsp; <a href="dbzip/compressed_db_JPEG_1_image_res_compressed_gray_scaled_image.zip"><u>[40 grayscaled JPEG dataset]</u></a>,&nbsp;&nbsp; <a href="dbzip/compressed_db_HEIC_1_image_res_compressed.zip"><u>[40 color HEIC/HEIF dataset]</u></a>
+			  <br>&nbsp;&nbsp;&nbsp;&nbsp; <span>&#9900;</span> 10 posts with 2 images per post: <a href="dbzip/compressed_db_JPEG_2_image_res_compressed.zip">&nbsp; <u>[40 color JPEG dataset]</u></a>,&nbsp;&nbsp; <a href="dbzip/compressed_db_JPEG_2_image_res_compressed_gray_scaled_image.zip"><u>[40 grayscaled JPEG dataset]</u></a>
+			  <br>&nbsp;&nbsp;&nbsp;&nbsp; <span>&#9900;</span> 10 posts with 3 images per post: <a href="dbzip/compressed_db_JPEG_3_image_res_compressed.zip">&nbsp; <u>[60 color JPEG dataset]</u></a>,&nbsp;&nbsp; <a href="dbzip/compressed_db_JPEG_3_image_res_compressed_gray_scaled_image.zip"><u>[60 grayscaled JPEG dataset]</u></a>
+			  <br>&nbsp;&nbsp;&nbsp;&nbsp; <span>&#9900;</span> 10 posts with 4 images per post: <a href="dbzip/compressed_db_JPEG_4_image_res_compressed.zip">&nbsp; <u>[80 color JPEG dataset]</u></a>,&nbsp;&nbsp; <a href="dbzip/compressed_db_JPEG_4_image_res_compressed_gray_scaled_image.zip"><u>[80 grayscaled JPEG dataset]</u></a>
+			  <br>&nbsp;&nbsp;&nbsp;&nbsp; <span>&#9900;</span> 10 posts with 5 images per post: <a href="dbzip/compressed_db_JPEG_5_image_res_compressed.zip">&nbsp; <u>[100 color JPEG dataset]</u></a>,&nbsp;&nbsp; <a href="dbzip/compressed_db_JPEG_5_image_res_compressed_gray_scaled_image.zip"><u>[100 grayscaled JPEG dataset]</u></a>
+			  <br>&nbsp;&nbsp;&nbsp;&nbsp; <span>&#9900;</span> 10 posts with 6 images per post: <a href="dbzip/compressed_db_JPEG_6_image_res_compressed.zip">&nbsp; <u>[120 color JPEG dataset]</u></a>,&nbsp;&nbsp; <a href="dbzip/compressed_db_JPEG_6_image_res_compressed_gray_scaled_image.zip"><u>[120 grayscaled JPEG dataset]</u></a></p>
 			</div>
-			              </a>
-
           </div>
-          <!-- outer -->
         </div>
-        <!-- col-md-4 -->
-
-        <div class="col-md-2">
-          <div class = "outer">
-
-            <a href="dbzip/compressed_db_JPEG_2_image_res_compressed.zip">
-            <div class="upper">
-              <img src="img/com_cr_db2_cover.jpg">
-              <div class="innertext">
-                <span>40 images</span>
-              </div>
-            </div>
-
-            <div class="lower">
-              <h5>2 color images per post db</h5>
-            </div>
-            </a>
-
-          </div>
-          <!-- outer -->
-        </div>
-        <!-- col-md-4 -->
-
-        <div class="col-md-2">
-          <div class = "outer">
-
-            <a href="dbzip/compressed_db_JPEG_3_image_res_compressed.zip">
-            <div class="upper">
-              <img src="img/com_cr_db3_cover.jpg">
-              <div class="innertext">
-                <span>60 images</span>
-              </div>
-            </div>
-
-            <div class="lower">
-              <h5>3 color images per post db</h5>
-            </div>
-            </a>
-
-          </div>
-          <!-- outer -->
-        </div>
-        <!-- col-md-4 -->
-
-        <div class="col-md-2">
-          <div class = "outer">
-            <a href="dbzip/compressed_db_JPEG_4_image_res_compressed.zip">
-            <div class="view overlay">
-            <div class="upper">
-              <img src="img/com_cr_db4_cover.jpg">
-              <div class="innertext">
-                <span>80 images</span>
-              </div>
-            </div>
-          </div>
-
-            <div class="lower">
-              <h5>4 color images per post db</h5>
-            </div>
-            </a>
-
-          </div>
-          <!-- outer -->
-        </div>
-        <!-- col-md-4-->
-
-
-        <div class="col-md-2">
-          <div class = "outer">
-
-            <a href="dbzip/compressed_db_JPEG_5_image_res_compressed.zip">
-            <div class="upper">
-              <img src="img/com_cr_db5_cover.jpg">
-              <div class="innertext">
-                <span>100 images</span>
-              </div>
-            </div>
-
-            <div class="lower">
-              <h5>5 color images per post db</h5>
-            </div>
-            </a>
-
-          </div>
-          <!-- outer -->
-        </div>
-        <!-- col-md-4 -->
-
-        <div class="col-md-2">
-          <div class = "outer">
-
-            <a href="dbzip/compressed_db_JPEG_6_image_res_compressed.zip">
-            <div class="upper">
-              <img src="img/com_cr_db6_cover.jpg">
-              <div class="innertext">
-                <span>120 images</span>
-              </div>
-            </div>
-
-            <div class="lower">
-              <h5>6 color images per post db</h5>
-            </div>
-
-            </a>
-          </div>
-          <!-- outer -->
-        </div>
-        <!-- col-md-4 -->
-		
-
       </div>
-      <!-- row -->
-		<div class="row">
-          <div class="col-md-2">
-            <div class = "outer">
-
-              <a href="dbzip/compressed_db_JPEG_1_image_res_compressed_gray_scaled_image.zip">
-              <div class="upper">
-                <img src="img/com_bw_db1_cover.jpg">
-                <div class="innertext">
-                  <span>40 images</span>
-                </div>
-              </div>
-
-              <div class="lower">
-              <h5>1 grayscaled image per post db</h5>
-              </div>
-              </a>
-
-            </div>
-            <!-- outer -->
-          </div>
-          <!-- col-md-4 -->
-
-          <div class="col-md-2">
-            <div class = "outer">
-
-              <a href="dbzip/compressed_db_JPEG_2_image_res_compressed_gray_scaled_image.zip">
-              <div class="upper">
-                <img src="img/com_bw_db2_cover.jpg">
-                <div class="innertext">
-                  <span>40 images</span>
-                </div>
-              </div>
-
-              <div class="lower">
-              <h5>2 grayscaled images per post db</h5>
-              </div>
-              </a>
-
-            </div>
-            <!-- outer -->
-          </div>
-          <!-- col-md-4 -->
-
-          <div class="col-md-2">
-            <div class = "outer">
-
-              <a href="dbzip/compressed_db_JPEG_3_image_res_compressed_gray_scaled_image.zip">
-              <div class="upper">
-                <img src="img/com_bw_db3_cover.jpg">
-                <div class="innertext">
-                  <span>60 images</span>
-                </div>
-              </div>
-
-              <div class="lower">
-              <h5>3 grayscaled images per post db</h5>
-              </div>
-              </a>
-
-            </div>
-            <!-- outer -->
-          </div>
-          <!-- col-md-4 -->
-
-          <div class="col-md-2">
-            <div class = "outer">
-              <a href="dbzip/compressed_db_JPEG_4_image_res_compressed_gray_scaled_image.zip">
-              <div class="view overlay">
-              <div class="upper">
-                <img src="img/com_bw_db4_cover.jpg">
-                <div class="innertext">
-                  <span>80 images</span>
-                </div>
-              </div>
-            </div>
-
-              <div class="lower">
-              <h5>4 grayscaled images per post db</h5>
-              </div>
-              </a>
-
-            </div>
-            <!-- outer -->
-          </div>
-          <!-- col-md-4-->
-
-
-          <div class="col-md-2">
-            <div class = "outer">
-
-              <a href="dbzip/compressed_db_JPEG_5_image_res_compressed_gray_scaled_image.zip">
-              <div class="upper">
-                <img src="img/com_bw_db5_cover.jpg">
-                <div class="innertext">
-                  <span>100 images</span>
-                </div>
-              </div>
-
-              <div class="lower">
-              <h5>5 grayscaled images per post db</h5>
-              </div>
-              </a>
-
-            </div>
-            <!-- outer -->
-          </div>
-          <!-- col-md-4 -->
-
-          <div class="col-md-2">
-            <div class = "outer">
-
-              <a href="dbzip/compressed_db_JPEG_6_image_res_compressed_gray_scaled_image.zip">
-              <div class="upper">
-                <img src="img/com_bw_db6_cover.jpg">
-                <div class="innertext">
-                  <span>120 images</span>
-                </div>
-              </div>
-
-              <div class="lower">
-              <h5>6 grayscaled images per post db</h5>
-              </div>
-
-              </a>
-            </div>
-            <!-- outer -->
-          </div>
-          <!-- col-md-4 -->
-
-
-        </div>
-        <!-- row -->
-		
-		<div class="row">
-            <div class="col-md-2">
-              <div class = "outer">
-
-                <a href="dbzip/compressed_db_HEIC_1_image_res_compressed.zip">
-                <div class="upper">
-                  <img src="img/heic_cr_db1_cover.jpg">
-                  <div class="innertext">
-                    <span>40 images</span>
-                  </div>
-                </div>
-
-                <div class="lower">
-              <h5>1 color HEIC/HEIF image per post db</h5>
-                </div>
-                </a>
-
-              </div>
-              <!-- outer -->
-            </div>
-            <!-- col-md-4 -->
-
-
-          </div>
-          <!-- row -->
-		
     </div>
     <!--container -->
-	
-	
   </section>
-  <!-- latest --><!-- latest -->
-<section id = "filter_db">
+  
+  <section id = "filter_db">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 text-left">
-          <h5>Instagram filtered image database</h5><hr>
+        <div class="col-md-10 offset-md-1 text-left">
+          <h5>SNS built-in enhancement dataset</h5><hr>
           <div class="row">
-            <div class="col-md-12  text-justify">
-              <p>Filter DB is a database that contains resized and filter-applied jpg images.All the images are resized to an optimal size of Instagram post, i.e. 1080 pixels wide by 000 pixels to 0000 pixels high. A total of 10920 images (5460 color, 5460 b&w) have been uploaded to Instagram and are varies by the number of images in a post.
-                <br>We applied all filters Instagram is providing on various combination of images. Instagram has 41 filters(1977, Aden, Amar, Ashb, Bran, Broo, Char, Clar, Crem, Dogp, Earl, Ging, Ginz, Hefe, Hele, Huds, Inkw, Juno, Kelv, Lark, Lo-F, Ludw, Mave, Mayf, Moon, Nash, nfit, Perp, Reye, Rise, Sier, Skyl, Slum, Stin, Sutr, Toas, Vale, Vesp, Wald, Will, X-Pr) and we applied filters on single image (820 color, 820 b&w), carousel with 2 images (820 color, 820 b&w), 3 images (1230 color, 1230 b&w), and 6 images (2460 color, 2460 b&w).</p>
+            <div class="col-md-12 text-justify">
+              <p>This dataset is useful for testing the effect of built-in SNS image enhancement. </p>
             </div>
-          </div>
+			<div class="col-md-12 text-justify">
+			<p><span>&#8226;</span> Instagram filter dataset: This dataset contains resized and filter-applied JPEG images. All images are resized to an optimal size for Instagram post (1080p x 566p ~ 1350p) before uploading it to Instagram. The dataset contains images enhanced with 41 image filters (1977, Aden, Amar, Ashb, Bran, Broo, Char, Clar, Crem, Dogp, Earl, Ging, Ginz, Hefe, Hele, Huds, Inkw, Juno, Kelv, Lark, Lo-F, Ludw, Mave, Mayf, Moon, Nash, nfit, Perp, Reye, Rise, Sier, Skyl, Slum, Stin, Sutr, Toas, Vale, Vesp, Wald, Will, X-Pr). Since Instagram post can have multiple number of images, we collected posts with 1, 2, 3, and 6 images. Each dataset contains the uploaded version, downloaded version, and an image dataset description file.
+             <br>&nbsp;&nbsp;&nbsp;&nbsp; <span>&#9900;</span> 41x20 posts with 1 image per post: <a href="dbzip/filter_db_JPEG_1_image_org_filter.zip">&nbsp;&nbsp; <u>[860 color JPEG dataset]</u></a>,&nbsp;&nbsp; <a href="dbzip/filter_db_JPEG_1_image_org_filter_gray_scaled_image.zip"><u>[860 grayscaled JPEG dataset]</u></a>
+			  <br>&nbsp;&nbsp;&nbsp;&nbsp; <span>&#9900;</span> 41x10 posts with 2 images per post: <a href="dbzip/filter_db_JPEG_2_image_org_filter.zip">&nbsp; <u>[860 color JPEG dataset]</u></a>,&nbsp;&nbsp; <a href="dbzip/filter_db_JPEG_2_image_org_filter_gray_scaled_image.zip"><u>[860 grayscaled JPEG dataset]</u></a>
+			  <br>&nbsp;&nbsp;&nbsp;&nbsp; <span>&#9900;</span> 41x10 posts with 3 images per post: <a href="dbzip/filter_db_JPEG_3_image_org_filter.zip">&nbsp; <u>[1,260 color JPEG dataset]</u></a>,&nbsp;&nbsp; <a href="dbzip/filter_db_JPEG_3_image_org_filter_gray_scaled_image.zip"><u>[1,260 grayscaled JPEG dataset]</u></a>
+			  <br>&nbsp;&nbsp;&nbsp;&nbsp; <span>&#9900;</span> 41x10 posts with 6 images per post: <a href="dbzip/filter_db_JPEG_6_image_org_filter.zip">&nbsp; <u>[2,520 color JPEG dataset]</u></a>,&nbsp;&nbsp; <a href="dbzip/filter_db_JPEG_6_image_org_filter_gray_scaled_image.zip"><u>[2,520 grayscaled JPEG dataset]</u></a></p>
+			</div>
+			
+		  </div>
         </div>
       </div>
-
-      <div class="row">
-
-        <div class="col-md-3">
-          <div class = "outer">
-
-            <a href="dbzip/filter_db_JPEG_1_image_org_filter.zip">
-            <div class="upper">
-              <img src="img/fil_cr_db1_cover.jpg">
-              <div class="innertext">
-                <span>840 images</span>
-              </div>
-            </div>
-
-            <div class="lower">
-              <h5>1 color image per post db</h5>
-            </div>
-            </a>
-
-          </div>
-          <!-- outer -->
-        </div>
-        <!-- col-md-4 -->
-
-        <div class="col-md-3">
-          <div class = "outer">
-            <a href="dbzip/filter_db_JPEG_2_image_org_filter.zip">
-            <div class="view overlay">
-            <div class="upper">
-              <img src="img/fil_cr_db2_cover.jpg">
-              <div class="innertext">
-                <span>840 images</span>
-              </div>
-            </div>
-          </div>
-
-            <div class="lower">
-              <h5>2 color images per post db</h5>
-            </div>
-            </a>
-
-          </div>
-          <!-- outer -->
-        </div>
-        <!-- col-md-4-->
-
-
-        <div class="col-md-3">
-          <div class = "outer">
-
-            <a href="dbzip/filter_db_JPEG_3_image_org_filter.zip">
-            <div class="upper">
-              <img src="img/fil_cr_db3_cover.jpg">
-              <div class="innertext">
-                <span>1260 images</span>
-              </div>
-            </div>
-
-            <div class="lower">
-              <h5>3 color images per post db</h5>
-            </div>
-            </a>
-
-          </div>
-          <!-- outer -->
-        </div>
-        <!-- col-md-4 -->
-
-        <div class="col-md-3">
-          <div class = "outer">
-
-            <a href="dbzip/filter_db_JPEG_6_image_org_filter.zip">
-            <div class="upper">
-              <img src="img/fil_cr_db4_cover.jpg">
-              <div class="innertext">
-                <span>2520 images</span>
-              </div>
-            </div>
-
-            <div class="lower">
-              <h5>6 color images per post db</h5>
-            </div>
-
-            </a>
-          </div>
-          <!-- outer -->
-        </div>
-        <!-- col-md-4 -->
-	
-          <div class="col-md-3">
-            <div class = "outer">
-
-              <a href="dbzip/filter_db_JPEG_1_image_org_filter_gray_scaled_image.zip">
-              <div class="upper">
-                <img src="img/fil_bw_db1_cover.jpg">
-                <div class="innertext">
-                  <span>840 images</span>
-                </div>
-              </div>
-
-              <div class="lower">
-                <h5>1 grayscaled image per post db</h5>
-              </div>
-              </a>
-
-            </div>
-            <!-- outer -->
-          </div>
-          <!-- col-md-4 -->
-
-          <div class="col-md-3">
-            <div class = "outer">
-              <a href="dbzip/filter_db_JPEG_2_image_org_filter_gray_scaled_image.zip">
-              <div class="view overlay">
-              <div class="upper">
-                <img src="img/fil_bw_db2_cover.jpg">
-                <div class="innertext">
-                  <span>840 images</span>
-                </div>
-              </div>
-            </div>
-
-              <div class="lower">
-                <h5>2 grayscaled images per post db</h5>
-              </div>
-              </a>
-
-            </div>
-            <!-- outer -->
-          </div>
-          <!-- col-md-4-->
-
-
-          <div class="col-md-3">
-            <div class = "outer">
-
-              <a href="dbzip/filter_db_JPEG_3_image_org_filter_gray_scaled_image.zip">
-              <div class="upper">
-                <img src="img/fil_bw_db3_cover.jpg">
-                <div class="innertext">
-                  <span>1260  images</span>
-                </div>
-              </div>
-
-              <div class="lower">
-                <h5>3 grayscaled images per post db</h5>
-              </div>
-              </a>
-
-            </div>
-            <!-- outer -->
-          </div>
-          <!-- col-md-4 -->
-
-          <div class="col-md-3">
-            <div class = "outer">
-
-              <a href="dbzip/filter_db_JPEG_6_image_org_filter_gray_scaled_image.zip">
-              <div class="upper">
-                <img src="img/fil_bw_db4_cover.jpg">
-                <div class="innertext">
-                  <span>2520 images</span>
-                </div>
-              </div>
-
-              <div class="lower">
-                <h5>6 grayscaled images per post db</h5>
-              </div>
-
-              </a>
-            </div>
-            <!-- outer -->
-          </div>
-          <!-- col-md-4 -->
-
-      </div>
-      <!-- row -->
     </div>
     <!--container -->
   </section>
@@ -602,9 +147,8 @@
 	  
         <div class="col-md-3 offset-md-1 text-left">
           <img src="img/KUlogo.png">
-		              <p class="text-left"><a href="https://www.facebook.com/iaslab.org" class="fa fa-2x fa-facebook-square"></a>  <a href="https://twitter.com/iaslab_org" class="fa fa-2x fa-twitter-square"></a> <a href="mailto:contact@iaslab.org" class="fa fa-2x fa-envelope-square"></a></p>
-
-          <p class="text-left">Copyrights (C) 2020 iaslab. <br>ALL RIGHTS RESERVED</p>
+		              <p class="text-left"><a href="https://www.facebook.com/iaslab.org" class="fa fa-2x fa-facebook-square"></a>  <a href="https://twitter.com/iaslab_org" class="fa fa-2x fa-twitter-square"></a> <a href="https://www.linkedin.com/company/iaslab-org" class="fa fa-2x fa-linkedin-square"></a> <a href="https://www.instagram.com/iaslab_org/" class="fa fa-2x fa-instagram"></a>  <a href="mailto:contact@iaslab.org" class="fa fa-2x fa-envelope-square"></a><br>
+         Copyrights <span>&#169;</span> 2020 iaslab. <br>ALL RIGHTS RESERVED</p>
         </div>
         <!-- col-md-4 -->
 	  
