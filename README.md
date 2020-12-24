@@ -1,4 +1,4 @@
-# ![iaslab.org](img/KUlogo.png?raw=true "iaslab logo" | width=25)
+# ![iaslab.org](https://iaslab.org/img/KUlogo.png | width=25)
 This is the website for image analysis and security lab hosted on https://iaslab.org. 
 Image datasets are externally hosted on onedrive.
 
