@@ -177,11 +177,7 @@ border-radius: 30px;
   padding: 50px 30px;
 }
 
-#projects a{
-    color: #007bff;
-    text-decoration: none;
-    background-color: transparent;
-}
+
 #projects img{
   margin-top: 0px;
   margin-bottom: 10px;
