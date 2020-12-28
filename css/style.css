@@ -464,6 +464,79 @@ margin-bottom: 20px;
   margin-bottom: 5px;
 }
 
+#publication{
+  padding: 0 30px;
+  padding-top: 100;
+  margin-bottom: 30px;
+  /* background: rgb(248,248,248); */
+}
+
+#publication h3{
+  margin-bottom: 0px;
+}
+
+#publication h4{
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#publication h5{
+  margin-top: 5px;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 20px;
+}
+#publication .upper{
+  position: relative;
+}
+
+#publication img{
+}
+
+#publication .innertext{
+      position: absolute;
+      bottom: 15px;
+      right: 15px;
+  }
+
+#publication .innertext span{
+  background:rgba(255,255,255,0.7);
+  padding: 6px 10px;
+  border-radius: 30px;
+}
+
+#publication .outer{
+  margin-top: 40px;
+  background: white;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.08 );
+}
+
+#publication .lower{
+  padding: 0 5px 10px 0px;
+}
+
+#publication a{
+  color: black;
+}
+
+#publication a:hover{
+  text-decoration: none;
+}
+
+
+#publication .lower h4{
+  margin-bottom: 5px;
+}
+
+td.bibtexnumber {
+    padding: 10px;
+}
+
+td.bibtexitem{
+    padding: 10px
+}
+
 a.name{
   color:black;
 }
