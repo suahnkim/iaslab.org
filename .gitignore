@@ -1,4 +1,5 @@
 # ignore image db directories
+download_backup.html
 ideathon/
 dbzip/
 10influencers/
