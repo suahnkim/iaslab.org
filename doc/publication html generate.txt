@@ -1,0 +1,4 @@
+how to generate publication page: 
+1. download google scholar page bibtext list and save it as a bib file
+2. use bib2html to generate html page from the bibfile (use admin cmd)
+3. copy table to table
