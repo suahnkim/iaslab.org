@@ -8,6 +8,7 @@ p,a,input,label,textarea,span,ul,li{
   font-family: 'Lato', sans-serif;
 }
 
+
 h2{
   font-size: 20px;
   color: #707070;
@@ -176,6 +177,11 @@ border-radius: 30px;
   padding: 50px 30px;
 }
 
+#projects a{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
 #projects img{
   margin-top: 0px;
   margin-bottom: 10px;
@@ -230,14 +236,6 @@ border-radius: 30px;
 
 #latest .lower{
   padding: 0 5px 10px 0px;
-}
-
-#latest a{
-  color: black;
-}
-
-#latest a:hover{
-  text-decoration: none;
 }
 
 
@@ -321,14 +319,6 @@ margin-bottom: 20px;
   padding: 0 5px 10px 0px;
 }
 
-#compressed_db a{
-  color: black;
-}
-
-#compressed_db a:hover{
-  text-decoration: none;
-}
-
 
 #compressed_db .lower h4{
   margin-bottom: 5px;
@@ -386,13 +376,6 @@ margin-bottom: 20px;
   padding: 0 5px 10px 0px;
 }
 
-#filter_db a{
-  color: black;
-}
-
-#filter_db a:hover{
-  text-decoration: none;
-}
 
 
 #filter_db .lower h4{
@@ -451,14 +434,6 @@ margin-bottom: 20px;
   padding: 0 5px 10px 0px;
 }
 
-#under_over_exposed_db a{
-  color: black;
-}
-
-#under_over_exposed_db a:hover{
-  text-decoration: none;
-}
-
 
 #under_over_exposed_db .lower h4{
   margin-bottom: 5px;
@@ -514,14 +489,6 @@ margin-bottom: 20px;
 
 #publication .lower{
   padding: 0 5px 10px 0px;
-}
-
-#publication a{
-  color: black;
-}
-
-#publication a:hover{
-  text-decoration: none;
 }
 
 
