@@ -493,11 +493,15 @@ margin-bottom: 20px;
 }
 
 td.bibtexnumber {
-    padding: 10px;
+  font-size: 14px;
+  color: #707070;
+  padding: 10px;
 }
 
 td.bibtexitem{
-    padding: 10px
+  font-size: 14px;
+  color: #707070;
+  padding: 10px
 }
 
 a.name{
