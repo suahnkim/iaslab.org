@@ -18,9 +18,9 @@ Kim, S, Sio, P, Im, Y. Instagram filter test dataset by iaslab. https://iaslab.o
 
 bibtex: 
 @misc{SK_iaslab_instragram_filter_db,
-author = "{Kim, Suah and Sio, Pui San and Im, Yeji}",
-title = "{Instagram filter test dataset by iaslab}",
+author = {Kim, Suah and Sio, Pui San and Im, Yeji},
+title = {Instagram filter test dataset by iaslab},
 year = 2020,
-howpublished = "\url{https://iaslab.org/download#filter_db}",
+howpublished = {\url{https://iaslab.org/download#filter_db}},
 publisher={iaslab},
 }

@@ -17,9 +17,9 @@ Lussi, R, Kim, S. Under and over exposed image dataset by iaslab. https://iaslab
 
 bibtex: 
 @misc{SK_iaslab_under_and_over_exposed_db,
-author = "{Lussi, Rolf and Kim, Suah}",
-title = "{Under and over exposed image dataset by iaslab}",
+author = {Lussi, Rolf and Kim, Suah},
+title = {Under and over exposed image dataset by iaslab},
 year = 2015,
-howpublished = "\url{https://iaslab.org/download#under_over_exposed_db}",
+howpublished = {\url{https://iaslab.org/download#under_over_exposed_db}},
 publisher={iaslab},
 }

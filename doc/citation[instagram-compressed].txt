@@ -17,9 +17,9 @@ Kim, S, Sio, P, Im, Y. Instagram compression test dataset by iaslab. https://ias
 
 bibtex: 
 @misc{SK_iaslab_instragram_compressed_db,
-author = "{Kim, Suah and Sio, Pui San and Im, Yeji}",
-title = "{Instagram compression test dataset by iaslab}",
+author = {Kim, Suah and Sio, Pui San and Im, Yeji},
+title = {Instagram compression test dataset by iaslab},
 year = 2020,
-howpublished = "\url{https://iaslab.org/download#compressed_db}",
+howpublished = {\url{https://iaslab.org/download#compressed_db}},
 publisher={iaslab},
 }
