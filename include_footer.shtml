@@ -4,8 +4,7 @@
         <div class="col-md-4 offset-md-1 text-left">
           <a href="index.html"> <img src="img/KUlogo.png"</a>
 		              <p class="text-left"><a href="https://www.facebook.com/iaslab.org" class="fa fa-2x fa-facebook-square"></a>  <a href="https://twitter.com/iaslab_org" class="fa fa-2x fa-twitter-square"></a> <a href="https://www.linkedin.com/company/iaslab" class="fa fa-2x fa-linkedin-square"></a> <a href="https://www.instagram.com/iaslab_org/" class="fa fa-2x fa-instagram"></a> <a href="mailto:suahnkim@gmail.com" class="fa fa-2x fa-envelope-square"></a> <br>
-         Copyrights <span>&#169;</span> from <br> 2020 to <script>document.write( new Date().getFullYear() );</script>
- , iaslab. <br>All rights reserved</p>
+         Copyrights <span>&#169;</span> from <br> 2020 to <script>document.write( new Date().getFullYear() );</script>, iaslab. <br>All rights reserved</p>
         </div>
         <!-- col-md-4 -->
 	  
